@@ -66,6 +66,7 @@ hr {
 
 .container-one {
 	display: flex;
+	flex-flow: row;
 	justify-content: space-evenly;
 	padding: 0;
 	margin: 0 auto;
