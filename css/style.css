@@ -64,7 +64,16 @@ hr {
 	max-width: 1000px;
 }
 
-.header {
+.container-one {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1000px;
+}
+
+header {
 	background-color: #64bcda;
 	border-bottom: 8px solid #000000;
 	margin-bottom: 3.2rem;
@@ -92,11 +101,12 @@ hr {
 	text-transform: uppercase;
 }
 
-.main-article {
+article {
 	background-color: #e2e2e2;
 	padding: 1.6rem;
-	width: 100%;
+	width: 50%;
 	margin: 0 0 1.6rem;
+	border-radius: 10px;
 }
 
 .main-article_cover {
@@ -125,6 +135,7 @@ hr {
 	color: #f2f2f2;
 	margin: 0 0 1.6rem;
 	font-size: 0.9rem;
+	border-radius: 10px;
 }
 
 .main-sidebar_thumb {
@@ -159,7 +170,7 @@ hr {
 	display: block;
 }
 
-.footer {
+footer {
 	text-align: center;
 }
 
